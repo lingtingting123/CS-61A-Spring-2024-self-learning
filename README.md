@@ -1,0 +1,7 @@
+- 课程版本 ：CS 61A Spring 2024
+- follow课程大纲 : https://www.learncs.site/docs/curriculum-resource/cs61a/syllabus
+- python版本： 3.10.12
+- IDE : vs code
+- 终端 : Linux (wsl,vs code)
+- 内容 : homework, lab, projects (除discussion)
+- 进度 : 未完结
