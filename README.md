@@ -5,7 +5,7 @@
 - 终端 : Linux (wsl,vs code)
 - 内容 : homework, lab, projects, exam_practice (除discussion)
 - 进度 : 
-    - hw: 01,02
-    - lab: 01,02
+    - hw: 01,02,03
+    - lab: 00,01,02,03
     - projects: hog
     - exam_practice: you_again, domain_on_the_range, tik
