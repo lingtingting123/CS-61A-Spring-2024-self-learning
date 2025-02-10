@@ -6,7 +6,7 @@
 - 内容 : homework, lab, projects, exam_practice. discussion
 - 进度 : 
     - hw: 01,02,03
-    - lab: 00,01,02,03
+    - lab: 00,01,02,03,04
     - projects: hog,cat
     - exam_practice: you_again, domain_on_the_range, tik
     - discussion: 04
