@@ -26,5 +26,15 @@ def f_then_g(f,g,n):
 
 grow = lambda n: f_then_g(grow,print,n//10)
 shrink = lambda n: f_then_g(print,shrink,n//10)
-         
+
+"""discussion04"""
+def path(x,y,m,n):
+    # if x > m or y > n:
+    #     return 0 
+    # if x == m and y == n:
+    #     return 1
+    if x == m or y == n: #碰到边界的情况+没碰到边界的情况到达终点
+        return 1
+    return path(x + 1,y,m,n) + path(x,y + 1,m,n)
+  
 
