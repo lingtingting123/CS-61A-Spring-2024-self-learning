@@ -3,10 +3,10 @@
 - python版本： 3.10.12
 - IDE : vs code
 - 终端 : Linux (wsl,vs code)
-- 内容 : homework, lab, projects, exam_practice. discussion
+- 内容 : homework, lab, projects, discussion, exam_practice
 - 进度 : 
-    - hw: 01,02,03,04
-    - lab: 00,01,02,03,04
-    - projects: hog,cat
-    - discussion: 04,05
+    - hw: 01, 02, 03, 04
+    - lab: 00, 01, 02, 03, 04, 05
+    - projects: hog, cat
+    - discussion: 04, 05
     - exam_practice: you_again, domain_on_the_range, tik, Maximum_Exponen-tree-ation
