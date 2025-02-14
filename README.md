@@ -5,8 +5,8 @@
 - 终端 : Linux (wsl,vs code)
 - 内容 : homework, lab, projects, discussion, exam_practice
 - 进度 : 
-    - hw: 01, 02, 03, 04
-    - lab: 00, 01, 02, 03, 04, 05
+    - hw: 01, 02, 03, 04, 05
+    - lab: 00, 01, 02, 03, 04, 05, 06
     - projects: hog, cat
     - discussion: 04, 05, 06
     - exam_practice: you_again, domain_on_the_range, tik, Maximum_Exponen-tree-ation
