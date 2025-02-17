@@ -5,7 +5,7 @@
 - 终端 : Linux (wsl,vs code)
 - 内容 : homework, lab, projects, discussion, exam_practice
 - 进度 : 
-    - hw: 01, 02, 03, 04, 05
+    - hw: 01, 02, 03, 04, 05, 06
     - lab: 00, 01, 02, 03, 04, 05, 06
     - projects: hog, cat, ant
     - discussion: 04, 05, 06, 07s

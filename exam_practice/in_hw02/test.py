@@ -38,6 +38,27 @@ def count_paths(t,total):
         found = 0
     return found + sum([count_paths(b,total - label(t)) for b in branches(t)])
 
+class Link:
+    empty = ()
+    def __init__(self,first,rest=empty):
+        self.first = first
+        self.rest = rest
+
+def add(s,v):
+    if s == Link.empty:
+        return Link(v)
+    if v == s.first:
+        return s
+    if v > s.first:
+        return Link(s.first,add(s.rest,v))
+    if v < s.first:
+        return Link(v,s)
+
+def prune(t,n):
+    t.branches = [b for b in t.branches if b.label != n]
+    for b in t.branches:
+        prune(b,n)
+
 
 def make_anonymous_factorial():
     """Return the value of an expression that computes factorial.
@@ -99,3 +120,51 @@ def deep_map(f, s):
             s[i] = f(s[i])
 
 
+def make_change(amount, coins):
+    """Return a list of coins that sum to amount, preferring the smallest coins
+    available and placing the smallest coins first in the returned list.
+
+    The coins argument is a dictionary with keys that are positive integer
+    denominations and values that are positive integer coin counts.
+
+    >>> make_change(2, {2: 1})
+    [2]
+    >>> make_change(2, {1: 2, 2: 1})
+    [1, 1]
+    >>> make_change(4, {1: 2, 2: 1})
+    [1, 1, 2]
+    >>> make_change(4, {2: 1}) == None
+    True
+
+    >>> coins = {2: 2, 3: 2, 4: 3, 5: 1}
+    >>> make_change(4, coins)
+    [2, 2]
+    >>> make_change(8, coins)
+    [2, 2, 4]
+    >>> make_change(25, coins)
+    [2, 3, 3, 4, 4, 4, 5]
+    >>> coins[8] = 1
+    >>> make_change(25, coins)
+    [2, 2, 4, 4, 5, 8]
+    """
+    if not coins:
+        return None
+    smallest = min(coins)
+    rest = remove_one(coins, smallest)
+    if amount < smallest:
+        return None
+    "*** YOUR CODE HERE ***"
+    if amount == smallest:
+        return [smallest]
+    list = make_change(amount - smallest,rest)
+    # while not list:
+    #     if not rest:
+    #         return None
+    #     smallest = min(rest)
+    #     rest = remove_one(rest, smallest)
+    #     print('DEBUG:',"try again",smallest)
+    #     list = make_change(amount - smallest,rest)
+    # return [smallest] + list
+    if not list:
+        return make_change(amount,rest)
+    return [smallest] + make_change(amount - smallest,rest)
