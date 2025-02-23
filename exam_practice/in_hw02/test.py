@@ -38,6 +38,8 @@ def count_paths(t,total):
         found = 0
     return found + sum([count_paths(b,total - label(t)) for b in branches(t)])
 
+
+
 class Link:
     empty = ()
     def __init__(self,first,rest=empty):
