@@ -8,5 +8,5 @@
     - hw: 01, 02, 03, 04, 05, 06, 07
     - lab: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
     - projects: hog, cat, ant
-    - discussion: 04, 05, 06, 07, 08
+    - discussion: 04, 05, 06, 07, 08, 09
     - exam_practice: you_again, domain_on_the_range, tik, Maximum_Exponen-tree-ation
