@@ -6,7 +6,7 @@
 - 内容 : homework, lab, projects, discussion, exam_practice
 - 进度 : 
     - hw: 01, 02, 03, 04, 05, 06, 07, 08
-    - lab: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
+    - lab: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10
     - projects: hog, cat, ant
     - discussion: 04, 05, 06, 07, 08, 09
     - exam_practice: you_again, domain_on_the_range, tik, Maximum_Exponen-tree-ation
